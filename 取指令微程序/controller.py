@@ -45,7 +45,7 @@ def compile_addr0(addr, ir, psw, index):
     INST = ASM.INSTRUCTIONS[0]
     if op not in INST:
         micro[addr] = pin.CYC
-        returnnb 
+        return
 
     EXEC = INST[op]
     if index < len(EXEC):
