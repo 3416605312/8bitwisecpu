@@ -71,23 +71,35 @@ VEC_IN = VEC << _DST_SHIFT
 T1_IN = T1 << _DST_SHIFT
 T2_IN = T2 << _DST_SHIFT
 
-SRC_R = 2 ** 10
-SRC_W = 2 ** 11
-DST_R = 2 ** 12
-DST_W = 2 ** 13
+SRC_R = 2 << 10
+SRC_W = 2 << 11
+DST_R = 2 << 12
+DST_W = 2 << 13
 
-PC_WE = 2 ** 14
-PC_CS = 2 ** 15
-PC_EN = 2 ** 16
+PC_WE = 2 << 14
+PC_CS = 2 << 15
+PC_EN = 2 << 16
 
 PC_OUT = PC_CS
 PC_IN = PC_CS | PC_WE
 PC_INC = PC_CS | PC_WE | PC_EN
 
+_OP_SHIFT = 17
 
-CYC = 2 ** 30
-HLT = 2 ** 31
+OP_ADD = 0
+OP_SUB = 1 << _OP_SHIFT
+OP_INC = 2 << _OP_SHIFT
+OP_DEC = 3 << _OP_SHIFT
+OP_AND = 4 << _OP_SHIFT
+OP_OR = 5 << _OP_SHIFT
+OP_XOR = 6 << _OP_SHIFT
+OP_NOT = 7 << _OP_SHIFT
 
+ALU_OUT = 1 << 20
+ALU_PSW = 1 << 21
+
+CYC = 2 << 30
+HLT = 2 << 31
 
 ADDR2 = 1 << 7
 ADDR1 = 1 << 6
