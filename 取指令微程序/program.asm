@@ -1,15 +1,27 @@
-MOV D, 0;
 
-INC D;
-INC D;
-INC D;
-INC D;
-INC D;
+    mov ss, 1
+    MOV SP, 0x20 ; [0, 0xf]
+    jmp start
 
-DEC D;
-DEC D;
-DEC D;
-DEC D;
-DEC D;
+show:
+    mov d, 255;
+    iret; return;
 
-HLT
+start:
+    mov c, 0
+
+increase:
+    inc c;
+    mov d, c;
+    JP disable
+enable:
+    sti;
+    jmp interrupt
+disable:
+    cli
+
+interrupt:
+    int show
+    jmp increase
+
+    HLT
