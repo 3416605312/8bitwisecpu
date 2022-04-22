@@ -2,10 +2,9 @@
 <lc:CircuitProject xmlns:lc="http://LogicCircuit.net/2.0.0.10/CircuitProject.xsd">
 	<lc:Project>
 		<lc:ProjectId>919fea37-30f5-4a23-a759-519151826aed</lc:ProjectId>
-		<lc:Zoom>0.96876404494382</lc:Zoom>
+		<lc:Zoom>0.975505617977529</lc:Zoom>
 		<lc:Frequency>50</lc:Frequency>
 		<lc:LogicalCircuitId>6a228e9d-41fd-40a2-a4b0-c2e6f1f020a3</lc:LogicalCircuitId>
-		<lc:CategoryTextNoteCollapsed>True</lc:CategoryTextNoteCollapsed>
 		<lc:CategoryInputOutputCollapsed>True</lc:CategoryInputOutputCollapsed>
 		<lc:CategoryPrimitivesCollapsed>True</lc:CategoryPrimitivesCollapsed>
 	</lc:Project>
@@ -3074,7 +3073,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAnAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -9288,18 +9287,6 @@ QA==</lc:Data>
 		<lc:Clockwise>True</lc:Clockwise>
 	</lc:Splitter>
 	<lc:Splitter>
-		<lc:SplitterId>85ec1925-a49a-401a-8815-231ce106e289</lc:SplitterId>
-		<lc:BitWidth>32</lc:BitWidth>
-		<lc:PinCount>4</lc:PinCount>
-		<lc:Clockwise>True</lc:Clockwise>
-	</lc:Splitter>
-	<lc:Splitter>
-		<lc:SplitterId>f9ab758c-2f64-48f2-96e9-bc06f7b285ab</lc:SplitterId>
-		<lc:BitWidth>32</lc:BitWidth>
-		<lc:PinCount>4</lc:PinCount>
-		<lc:Clockwise>True</lc:Clockwise>
-	</lc:Splitter>
-	<lc:Splitter>
 		<lc:SplitterId>f0c6ed55-2fbf-4513-83af-4d1b19168cd0</lc:SplitterId>
 		<lc:BitWidth>8</lc:BitWidth>
 		<lc:PinCount>8</lc:PinCount>
@@ -14895,22 +14882,6 @@ QA==</lc:Data>
 		<lc:CircuitId>2a39a6d5-6d87-4bee-985e-423ee8e28d2d</lc:CircuitId>
 		<lc:LogicalCircuitId>a5ce2f45-5268-490b-a528-dbe2a524446f</lc:LogicalCircuitId>
 		<lc:X>50</lc:X>
-		<lc:Y>15</lc:Y>
-		<lc:Rotation>Right</lc:Rotation>
-	</lc:CircuitSymbol>
-	<lc:CircuitSymbol>
-		<lc:CircuitSymbolId>d9ee6f6b-d3b5-4f13-b855-45184330010a</lc:CircuitSymbolId>
-		<lc:CircuitId>85ec1925-a49a-401a-8815-231ce106e289</lc:CircuitId>
-		<lc:LogicalCircuitId>a5ce2f45-5268-490b-a528-dbe2a524446f</lc:LogicalCircuitId>
-		<lc:X>80</lc:X>
-		<lc:Y>15</lc:Y>
-		<lc:Rotation>Right</lc:Rotation>
-	</lc:CircuitSymbol>
-	<lc:CircuitSymbol>
-		<lc:CircuitSymbolId>29291340-fe0c-49f9-adea-8071a2a5f56d</lc:CircuitSymbolId>
-		<lc:CircuitId>f9ab758c-2f64-48f2-96e9-bc06f7b285ab</lc:CircuitId>
-		<lc:LogicalCircuitId>a5ce2f45-5268-490b-a528-dbe2a524446f</lc:LogicalCircuitId>
-		<lc:X>75</lc:X>
 		<lc:Y>15</lc:Y>
 		<lc:Rotation>Right</lc:Rotation>
 	</lc:CircuitSymbol>
@@ -41626,5 +41597,14 @@ QA==</lc:Data>
 		<lc:Width>3</lc:Width>
 		<lc:Height>1</lc:Height>
 		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph TextAlignment="Right"&gt;&lt;Run FontWeight="Bold" FontSize="16"&gt;T2&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
+	</lc:TextNote>
+	<lc:TextNote>
+		<lc:TextNoteId>ffa0d6df-ce9b-4e33-9236-bd7ca6e1a712</lc:TextNoteId>
+		<lc:LogicalCircuitId>6a228e9d-41fd-40a2-a4b0-c2e6f1f020a3</lc:LogicalCircuitId>
+		<lc:X>65</lc:X>
+		<lc:Y>33</lc:Y>
+		<lc:Width>14</lc:Width>
+		<lc:Height>5</lc:Height>
+		<lc:Note>&lt;FlowDocument PagePadding="5,0,5,0" AllowDrop="True" NumberSubstitution.CultureSource="User" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;&lt;Paragraph&gt;&lt;Run FontSize="72" xml:lang="zh-cn"&gt;8位CPU&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/FlowDocument&gt;</lc:Note>
 	</lc:TextNote>
 </lc:CircuitProject>
